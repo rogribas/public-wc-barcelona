@@ -63,7 +63,7 @@ def generate_html_file(wc_data):
 
                 // Add marker to the map
                 L.marker([lat, lon]).addTo(map)
-                    .bindPopup('<b>' + record.name + '</b><br>' + record.addresses_main_address);
+                    .bindPopup('<b>' + record.name + '</b>');
             });
         </script>
     </body>
