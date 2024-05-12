@@ -25,7 +25,7 @@
         }).addTo(map);
 
         // Fetch data from the API
-        fetch('https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=d4333031-e42c-4d1a-9ad6-6254359b8f37&limit=200')
+        fetch('https://opendata-ajuntament.barcelona.cat/data/api/action/datastore_search?resource_id=d4333031-e42c-4d1a-9ad6-6254359b8f37&limit=200')
             .then(response => response.json())
             .then(data => {
                 // Process each WC record
